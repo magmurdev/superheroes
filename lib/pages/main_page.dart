@@ -310,6 +310,8 @@ class MinSymbolsWidget extends StatelessWidget {
   }
 }
 
+
+
 class LoadingIndicator extends StatelessWidget {
   const LoadingIndicator({
     Key? key,
