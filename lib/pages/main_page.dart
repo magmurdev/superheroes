@@ -254,7 +254,7 @@ class NothingFound extends StatelessWidget {
         assetImage: SuperheroesImages.hulk,
         imageHeight: 112,
         imageWidth: 84,
-        imageTopPadding: 116,
+        imageTopPadding: 16,
         onTap: () {},
       ),
     );
