@@ -228,7 +228,7 @@ class NoFavorites extends StatelessWidget {
     return Center(
       child: InfoWithButton(
         title: 'No favorites yet',
-        subtitle: 'search and add',
+        subtitle: 'Search and add',
         buttonText: 'Search',
         assetImage: SuperheroesImages.ironman,
         imageHeight: 119,
