@@ -228,12 +228,12 @@ class NoFavorites extends StatelessWidget {
     return Center(
       child: InfoWithButton(
         title: 'No favorites yet',
-        subTitle: 'search and add',
+        subtitle: 'search and add',
         buttonText: 'Search',
         assetImage: SuperheroesImages.ironman,
-        imageHeight: 112,
-        imageWidth: 84,
-        imageTopPadding: 16,
+        imageHeight: 119,
+        imageWidth: 108,
+        imageTopPadding: 9,
         onTap: () {},
       ),
     );
@@ -249,12 +249,12 @@ class NothingFound extends StatelessWidget {
     return Center(
       child: InfoWithButton(
         title: 'Nothing found',
-        subTitle: 'Search for something else',
+        subtitle: 'Search for something else',
         buttonText: 'Search',
         assetImage: SuperheroesImages.hulk,
         imageHeight: 112,
         imageWidth: 84,
-        imageTopPadding: 16,
+        imageTopPadding: 116,
         onTap: () {},
       ),
     );
@@ -271,7 +271,7 @@ class LoadingError extends StatelessWidget {
     return Center(
       child: InfoWithButton(
         title: 'Error happened',
-        subTitle: 'Please, try again',
+        subtitle: 'Please, try again',
         buttonText: 'Retry',
         assetImage: SuperheroesImages.superman,
         imageHeight: 106,

@@ -4,7 +4,7 @@ import 'package:superheroes/widgets/action_button.dart';
 
 class InfoWithButton extends StatelessWidget {
   final String title;
-  final String subTitle;
+  final String subtitle;
   final String buttonText;
   final String assetImage;
   final double imageHeight;
@@ -15,7 +15,7 @@ class InfoWithButton extends StatelessWidget {
   const InfoWithButton({
     Key? key,
     required this.title,
-    required this.subTitle,
+    required this.subtitle,
     required this.buttonText,
     required this.assetImage,
     required this.imageHeight,
@@ -66,7 +66,7 @@ class InfoWithButton extends StatelessWidget {
             height: 20,
           ),
           Text(
-            subTitle.toUpperCase(),
+            subtitle.toUpperCase(),
             style: const TextStyle(
               fontSize: 16,
               fontWeight: FontWeight.w700,
